@@ -101,6 +101,7 @@ Return
 $a::
 If (umlaut_modus = 1) {
   Send {U+00E4}
+  umlaut_modus := 0
 } Else {
   Send a
 }
@@ -109,6 +110,7 @@ Return
 $+a::
 If (umlaut_modus = 1) {
   Send {U+00C4}
+  umlaut_modus := 0
 } Else {
   Send A
 }
@@ -117,6 +119,7 @@ Return
 $o::
 If (umlaut_modus = 1) {
   Send {U+00F6}
+  umlaut_modus := 0
 } Else {
   Send o
 }
@@ -125,6 +128,7 @@ Return
 $+o::
 If (umlaut_modus = 1) {
   Send {U+00D6}
+  umlaut_modus := 0
 } Else {
   Send O
 }
@@ -133,6 +137,7 @@ Return
 $u::
 If (umlaut_modus = 1) {
   Send {U+00FC}
+  umlaut_modus := 0
 } Else {
   Send u
 }
@@ -141,6 +146,7 @@ Return
 $+u::
 If (umlaut_modus = 1) {
   Send {U+00DC}
+  umlaut_modus := 0
 } Else {
   Send U
 }
